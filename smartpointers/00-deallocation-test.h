@@ -1,3 +1,12 @@
+/**
+ * @author Subrat Swain (info@cppwithsubrat.com)
+ * @brief Class To Ensure Our SmartPointer Class Is Working Fine Without Memory Leak
+ * @version 0.1
+ * @date 2023-09-22
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include <iostream>
 
 class deallocation_test {
@@ -7,7 +16,6 @@ class deallocation_test {
     }
 
     ~deallocation_test() {
-        // std::cout << "Destructor: " << '\n';
         std::cout << "Destructor: " << value << '\n';
     }
 
@@ -18,4 +26,3 @@ class deallocation_test {
     int32_t value; // = 10; // Assignment
 };
 // Class : Template.
-
