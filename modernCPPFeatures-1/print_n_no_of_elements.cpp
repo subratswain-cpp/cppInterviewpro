@@ -71,6 +71,5 @@ int main() {
 
 /*
 Range based for loop.
-begin() & end()-Functions should be mplemented to use range based for loop.
-
+begin() & end()-Functions should be implemented to use range based for loop.
 */ 
